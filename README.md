@@ -4,6 +4,6 @@ tool untuk hacking kamera
 tool ini pemberian dari @thelinux choice || 
 ![sch](https://user-images.githubusercontent.com/34893261/81830116-10add880-9512-11ea-946e-3643db8c1bba.png)
 
-### subscibe
+### subscribe
 ngopi slurr
 Subscribe  https://www.youtube.com/channel/UChMIkGetnMB4qq9K5kNwkXA
